@@ -1,0 +1,149 @@
+
+*{
+	font-family: "Mystery Quest", cursive;
+	color: white;
+}
+body{
+    background:url(f.gif)no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+h1{
+	text-align: center;
+	color: black;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke: 3px red;
+}
+
+table {
+	color: #333;
+	height: 300px;
+	width: 100%;
+	border-collapse: collapse;
+	border: grey 2px solid;
+}
+
+td {
+	border: 1px solid transparent;
+ 	text-align: center;
+  width: 50px;
+ 	height: 50px;
+}
+p{
+	text-align: center;
+}
+h3{
+	color: red;
+	font-size: 40px;
+}
+
+img{
+	width: 200px;
+}
+
+.pared{
+  background-image: url(llll.jpg);
+}
+.celdita{
+  background: black;
+}
+.muros{
+	background-image: url(llll.jpg);
+}
+.fondo{
+	background-image: url(finall.gif);
+}
+
+.empezar{
+	background-image: url(empezar.gif);
+	background-repeat: no-repeat;
+}
+.derechita{
+	background-image: url(mm.gif);
+}
+.izquierdita{
+	background-image: url(mario2.gif);
+}
+
+.arribita{
+	background-image: url(arriba.png);
+	background-repeat: no-repeat;
+}
+.final{
+	background-image: url(castillito.png);
+	background-repeat: no-repeat;
+	width: 50px;
+}
+
+#laberinto{
+	float: left;
+  height: 90%;
+  left: 3%;
+  top: 5%;
+  width: 70%;
+  overflow: hidden;
+	text-align: center;
+	padding: 0px 10px 90px 10px;
+}
+
+#botones{
+	height: 90%;
+	float: left;
+	top: 10%;
+	width: 27%;
+}
+
+#pagina{
+    width: 100%;
+    height:100%;
+}
+
+#izquierda{
+	background-color: transparent;
+	background-image: url(i.png);
+	color: white;
+	width: 73px;
+	height: 70px;
+	border: 2px;
+
+}
+
+#derecha {
+	background-color: transparent;
+	background-image: url(d.png);
+	color: white;
+	width: 73px;
+	height: 70px;
+	border: 2px;
+
+}
+
+#arriba{
+	background-color: transparent;
+	background-image: url(a.png);
+	color: white;
+	width: 70px;
+	height: 73px;
+	border: 2px;
+
+}
+ #abajo{
+	 background-color: transparent;
+	 background-image: url(b.png);
+	 color: white;
+	 width: 70px;
+	 height: 73px;
+	 border: 2px;
+
+ }
+
+#automatico{
+	background-color: transparent;
+	background-image: url(star.png);
+	color:white;
+	width: 73px;
+	height: 70px;
+	border: 2px;
+	}
